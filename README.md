@@ -6,6 +6,12 @@ The TCP server parses GET request headers from browser and returns requested htm
 
 Command to start server on localhost:
 
-```python Webserver.py port_number```
+```python WebServer.py port_number```
 
 where port number is any available port number on current machine
+
+To navigate to main page, go to 
+
+```localhost:port_number/index.html```
+
+on browser
