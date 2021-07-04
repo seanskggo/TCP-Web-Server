@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Lab 3</title>
+<title>TCP Web Server</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,12 +25,12 @@ body {font-family: "Lato", sans-serif}
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">Hello Tutor!</h2>
-    <p class="w3-opacity"><i>Lab Exercise 3: DNS & Socket Programming</i></p>
-    <p class="w3-justify">I have created this default landing page to make your 
-        life easier. I have buttons below that will redirect to /index.html,
-        /rengoku.png and a random url that directs to 404.html.
-        Thank you very much and have a good day :)
+    <h2 class="w3-wide">TCP Web Server</h2>
+    <p class="w3-opacity"><i>Created using Python sockets</i></p>
+    <p class="w3-justify">
+      This TCP server parses GET request headers from browsers and returns the relevant contents
+      (e.g. png or html). There are three tests below that will redirect to specific files in 
+      current root folder.
     </p>
   </div>
 
@@ -38,27 +38,27 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-black" id="tour">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">TESTS</h2>
-      <p class="w3-opacity w3-center"><i>Hello world!</i></p><br>
+      <p class="w3-opacity w3-center"><i>Test routes</i></p><br>
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom">
           <div class="w3-container w3-white">
             <p><b>index.html</b></p>
-            <p>Basic html by prof. Salil!</p>
+            <p>Example basic html</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='index.html'">Go!</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
           <div class="w3-container w3-white">
             <p><b>rengoku.png</b></p>
-            <p>The movie was the best ;)</p>
+            <p>Example image request</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='rengoku.png'">Go!</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
           <div class="w3-container w3-white">
             <p><b>404.html</b></p>
-            <p>Error!</p>
+            <p>Example error page</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='errorpage'">Go!</button>
           </div>
         </div>
