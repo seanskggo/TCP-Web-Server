@@ -8,10 +8,10 @@ Command to start server on localhost:
 
 ```python WebServer.py port_number```
 
-where port number is any available port number on current machine
+where port number is any available port number on current machine.
 
 To navigate to main page, go to 
 
-```localhost:port_number/index.html```
+```http://127.0.0.1:port_number/index.html```
 
-on browser
+on browser.
